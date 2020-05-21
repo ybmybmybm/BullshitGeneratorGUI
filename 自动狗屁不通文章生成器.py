@@ -64,7 +64,7 @@ class Translate():
         self.c_button2.grid(row=0,column=3,padx=2)
 
     def start(self):
-        """定义一个函数，完成翻译功能"""
+        """定义一个函数，完成功能"""
         original_str = self.input.get()  # 定义一个变量，用来接收输入框输入的值
         data = {
             'doctype': 'json',
@@ -101,4 +101,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
